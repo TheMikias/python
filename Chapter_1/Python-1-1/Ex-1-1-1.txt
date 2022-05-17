@@ -1,0 +1,7 @@
+
+ a.import
+ NameError: name 'stdio' is not defined
+  b.stdio
+ SyntaxError: invalid syntax
+ c. import stdio
+ NameError: name 'stdio' is not defined
