@@ -1,0 +1,6 @@
+1.1.4 
+ a. the first '
+ SyntaxError: EOL while scanning string literal
+ b. the second '
+  SyntaxError: EOL while scanning string literal
+ c. the stdio.writeln() statement
