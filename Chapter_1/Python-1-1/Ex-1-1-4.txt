@@ -1,0 +1,9 @@
+ 1.1.3 
+ a. import
+ SyntaxError: invalid syntax
+b. stdio
+ImportError: No module named 'ssdio'
+ c. write
+AttributeError: module 'stdio' has no attribute 'wwite'
+d. writeln
+ AttributeError: module 'stdio' has no attribute 'wwiteln'
