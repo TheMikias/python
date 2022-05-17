@@ -1,0 +1,10 @@
+
+
+a: Hi, python.How are you?
+b: Error id
+c: Hi, 123.How are you?
+d: Hi, Bob.How are you?
+e: Hi, Bob.How are you?
+f: Hi, Alice Bob.How are you?
+
+
