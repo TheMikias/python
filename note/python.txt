@@ -1,0 +1,19 @@
+1.1  Your First Program
+Programming in Python  To introduce you to developing Python programs, we break the process down into two steps. 
+To program in Python, you need to:
+•   Compose a program by typing it into a file named, say, myprogram.py.
+•   Run (or execute) it by typing python myprogram.py in the terminal window.
+* Composing a program.  A Python program is nothing more than a sequence of
+characters, like a paragraph or a poem, stored in a file whose name has a .py exten-
+sion. To compose one, therefore, you need simply define that sequence of charac-
+ters, in the same way as you do for email or any other computer application.
+* Executing a program.  Once you compose the program, you can run (or execute) it. This is the exciting part, 
+where your program takes control of your computer (within the constraints of what Python allows).
+the Python interpreter directs your computer to follow these instructions. Throughout this book we use the term 
+executing or running to refer to the combination of compiling and interpreting a program (as in “When Python 
+executes this program…”).
+* Errors.  It is easy to blur the distinction among editing, compiling, and interpreting programs.
+ You should keep them separate in your mind when you are learning to program, to better understand the 
+ effects of the errors that inevitably arise.
+* Input and output  Typically, we want to provide input to our programs—that is, data that they can process to
+ produce  a result. The simplest way to provide input data is illustrated in useargument.
