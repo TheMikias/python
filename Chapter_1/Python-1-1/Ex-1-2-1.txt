@@ -1,0 +1,12 @@
+Assume that a = 1, b = 12
+a --> 1
+b --> 12
+
+t=a
+t --> 1
+b=t
+t-->1
+a=b
+a-->1
+
+At the end: a =b = t

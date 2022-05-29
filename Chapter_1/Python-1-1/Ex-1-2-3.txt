@@ -1,0 +1,5 @@
+a	b	a and b	a or b	not (a and b)	X	not (a or b)	Y	Result
+True	True	True	True	False	False	False	True	True
+True	False	False	True	True	True	False	False	True
+False	False	False	Flase	True	False	True	True	True
+False	True	False	True	True	True	False	False	True

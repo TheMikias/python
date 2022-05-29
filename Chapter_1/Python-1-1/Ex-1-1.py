@@ -1,12 +1,3 @@
 import stdio
 
-stdio.writeln("Hello, World")
-stdio.writeln("Hello, World")
-stdio.writeln("Hello, World")
-stdio.writeln("Hello, World")
-stdio.writeln("Hello, World")
-stdio.writeln("Hello, World")
-stdio.writeln("Hello, World")
-stdio.writeln("Hello, World")
-stdio.writeln("Hello, World")
-stdio.writeln("Hello, World")
+stdio.writeln(10*"Hello, World\n")
