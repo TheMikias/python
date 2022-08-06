@@ -1,0 +1,64 @@
+Built-in Data Types
+Variables can store data of different types, and different types can do different things.
+Python has the following data types built-in by default, in these categories:
+Text Type:	str
+Numeric Types:	int, float, complex
+Boolean Type:	bool
+Literals.  A literal is a Python-code representation of a data-type value. We use
+sequences of digits such as 1234 or 99 to represent values of data type int; we add
+a decimal point, as in 3.14159 or 2.71828, to represent values of type float, we use True
+ or False to represent the two values of type bool; and we use a sequence of characters 
+ enclosed in matching quotes, such as 'Hello, World', to represent values of type str.
+
+Operators.  An operator is a Python-code representation of a data-type operation. 
+ Python uses + and * to represent addition and multiplication for integers and 
+ floating-point numbers; Python uses and, or, and not to represent boolean operations; 
+ and so forth. We will describe in detail the most commonly used operations
+ for each of the four basic built-in types later in this section.
+
+Identifiers.  An identifier is a Python-code representation of a name. Each identifier 
+is a sequence of letters, digits, and underscores, the first of which is not a digit. 
+The sequences of characters abc, Ab_, abc123, and a_b are all legal Python identifiers,
+ but Ab*, 1abc, and a+b are not. Identifiers are case-sensitive, so Ab, ab, and AB are 
+ all different names. Certain keywords—such as and, import, in, def, while, from, and 
+ lambda—are reserved, and you cannot use them as identifiers. Other names—such as 
+ int, sum, min, max, len, id, file, and input—have special meaning in Python, so it is best
+  not to use them, either.
+
+  Variables.  A variable is a name associated with a data-type value. We use variables to keep track 
+  of changing values as a computation unfolds.
+
+  Constant variables.  We use the oxymoronic term constant variable to describe a variable whose 
+  associated a data-type value does not change during the execution of a program
+
+Expressions.  An expression is a combination of literals, variables, and operators that Python 
+evaluates to produce a value. Many expressions look just like mathematical formulas, 
+using operators to specify data-type operations to be performed on one or more operands.
+
+Operator precedence.  An expression is shorthand for a sequence of operations: in which 
+order should the operators be applied? Python has natural and well-defined precedence rules
+ that fully specify this order.
+
+ Assignment statements.  How do we define an identifier to be a variable in Python code? 
+ How do we associate a variable with a data-type value? In Python, we use an assignment 
+ statement for both purposes. When we write a = 1234 in Python, we are not expressing mathematical
+  equality, but are instead expressing an action, directing Python to
+
+  Informal trace.  An effective way to keep track of the values associated with variables is to use 
+  a table like the one at right, with one line giving the values after each statement has been 
+  executed.
+
+  Objects.  All data values in a Python program are represented by objects and relationships among 
+  objects. An object is an in-computer-memory representation of a value from a particular data type.
+   Each object is characterized by its identity, type, and value.
+ Formal object-based definitions.  Now, we consider more formal definitions for the terminology
+we have been using.
+
+Object-level trace.  For a more complete understanding, we sometimes keep track of objects and 
+references in traces, as in the object-level trace in the figure at right. For our example, 
+the object-level trace illustrates the full effect of the three assignment statement
+
+Strings  The str data type represents strings, for use in text processing. The value of a str object
+ is a sequence  of characters.
+ 
+

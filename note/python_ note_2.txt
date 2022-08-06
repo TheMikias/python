@@ -1,0 +1,26 @@
+note for python 
+scalar types arbitry
+Boolean logical  value true and false
+arbitry precision integer integer
+4.2 64- bit floating point number
+none the null object
+   Python Relational Operators
+A relational operator is used to compare two values. Based on the operator and values, the operator returns either True or False.
+In Python, there are six Relational Operators. They are
+ 1 ==	Equal to	x == y	Returns True if x and y have same value, else returns False.
+ 2 >	Greater than	x > y	Returns True if value of x is greater than value of y, else returns False.
+ 3 <	Less than	x < y	Returns True if value of x is less than value of y, else returns False.
+ 4 !=	Not equal to	x != y	Returns True if x and y do not have same value, else returns False.
+ 5 >=	Greater than or equal to	x >= y	Returns True if value of x is greater than or equal to value of y, else returns False.
+  Equivalent to ( x>y or x==y )
+6 <=	Less than or equal to	x <= y	Returns True if value of x is less than or equal to value of y, else returns False.
+ Equivalent to ( x>y or x==y )
+   Control Flow
+In the programs we have seen till now, there has always been a series of statements faithfully executed by Python in exact top-down order.
+ The if statement
+The if statement is used to check a condition: if the condition is true, we run a block of statements (called the if-block), else we process 
+another block of statements (called the else-block).  The else clause is optional.
+   while loop
+The while loop in Python is used to iterate over a block of code as long as the test expression (condition) is true. We generally use this
+ loop when we don't know the number of times to iterate beforehand. In the while loop, test expression is checked first. The body of the loop 
+ is entered only if the test_expression evaluates to True.
